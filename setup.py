@@ -14,7 +14,7 @@ setup(
     py_modules=[
         'bsearch',
     ],
-    packages=find_packages(),
+    package_dir={'': 'bsearch'},
     classifiers=[
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 3',

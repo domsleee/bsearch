@@ -1,4 +1,4 @@
-from bsearch.bsearch import bsearch, bisect_left, bisect_right
+from bsearch import bsearch, bisect_left, bisect_right
 import operator
 
 
