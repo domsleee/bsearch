@@ -1,5 +1,8 @@
 # Bsearch
 
+[![Build Status](https://travis-ci.org/domsleee/bsearch.svg?branch=master)](https://travis-ci.org/domsleee/bsearch)
+[![PyPI shield](https://img.shields.io/pypi/v/bsearch.svg?style=flat-square)](https://pypi.org/project/bsearch/)
+
 Binary search in python with more flexible comparisons.
 
 ## Installation
@@ -10,7 +13,7 @@ pip install bsearch
 
 ## Usage
 
-`bisect_left` and `bisect_right` are backwards compatible with the [bisect](https://docs.python.org/3/library/bisect.html) library. For example
+`bisect_left` and `bisect_right` are backwards compatible with the [bisect](https://docs.python.org/3/library/bisect.html) library. For example:
 
 ~~~python
 from bsearch import bisect_left
